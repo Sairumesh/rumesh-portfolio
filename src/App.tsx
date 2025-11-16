@@ -162,7 +162,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/rumesh-portfolio">
         <div className="relative min-h-screen">
           <ParticleBackground />
           <Header />
